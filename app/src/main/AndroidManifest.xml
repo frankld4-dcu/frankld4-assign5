@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.v_dafran.projectapp" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/MainMenuTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="workoutadapters.Workout"
+            android:label="@string/title_activity_workout"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+
+        <activity
+            android:name="workoutadapters.NotesDialog">
+        </activity>
+
+        <activity
+            android:name=".VideoExercise"
+            android:label="@string/title_activity_skeleton"
+            android:theme="@style/MuscleSkeleton"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+
+        <activity
+            android:name="workoutvideos.AbsListView"
+            android:label="@string/title_activity_abList"
+            android:theme="@style/MainMenuTheme"
+            android:parentActivityName=".VideoExercise" >
+        </activity>
+
+        <activity
+            android:name="workoutvideos.ArmListView"
+            android:label="@string/title_activity_armList"
+            android:theme="@style/MainMenuTheme"
+            android:parentActivityName=".VideoExercise" >
+        </activity>
+
+        <activity
+            android:name="workoutvideos.BackListView"
+            android:label="@string/title_activity_backList"
+            android:theme="@style/MainMenuTheme"
+            android:parentActivityName=".VideoExercise" >
+        </activity>
+
+        <activity
+            android:name="workoutvideos.LegListView"
+            android:label="@string/title_activity_legList"
+            android:theme="@style/MainMenuTheme"
+            android:parentActivityName=".VideoExercise" >
+        </activity>
+
+        <activity
+            android:name="workoutvideos.ShoulderListView"
+            android:label="@string/title_activity_shoulderList"
+            android:theme="@style/MainMenuTheme"
+            android:parentActivityName=".VideoExercise" >
+        </activity>
+
+        <activity
+            android:name="workoutvideos.ChestListView"
+            android:label="@string/title_activity_chestList"
+            android:theme="@style/MainMenuTheme"
+            android:parentActivityName=".VideoExercise" >
+        </activity>
+
+        <activity
+            android:name=".ProAppSettings"
+            android:label="@string/action_settings"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+
+        <activity
+            android:name="reports.ReportConfigurator"
+            android:label="@string/title_activity_graph"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+
+        <activity
+            android:name="reports.ExerciseReportContainer"
+            android:label="@string/title_activity_graph"
+            android:parentActivityName="reports.ReportConfigurator" >
+        </activity>
+
+    </application>
+
+</manifest>

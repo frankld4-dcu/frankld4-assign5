@@ -1,0 +1,171 @@
+<resources>
+    <string name="app_name">ProjectApp</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- MainMenu Strings. -->
+    <string name="button_1">Workout</string>
+    <string name="button_2">Videos</string>
+    <string name="button_3">Tracker</string>
+    <string name="button_4">Graphs</string>
+    <string name="button_5">Settings</string>
+    <string name="title_activity_main">Main Menu</string>
+
+    <!-- Workout Strings. -->
+    <string name="title_activity_workout">Workout</string>
+    <string name="main_menu_btn_start">Start workout</string>
+    <string name="main_menu_btn_exercises">Exercises</string>
+    <string name="main_menu_btn_presets">Presets</string>
+    <string name="main_menu_btn_body">Body tracking</string>
+    <string name="main_menu_btn_reports">Reports</string>
+    <string name="main_menu_btn_settings">Settings</string>
+    <string name="main_menu_actionBar_text">SWJ: main</string>
+    <string name="workout_exercise_no_note_hint">No exercise selected</string>
+    <string name="workout_set_no_note_hint">No set selected</string>
+    <string name="workout_exercise_newnote_hint">Tap to add note for current exercise</string>
+    <string name="workout_set_newnote_hint">Tap to add note for current set</string>
+    <string name="workout_exercise_textview_hint">Add new exercise</string>
+    <string name="workout_cancel_btn_hint">cancel editing</string>
+    <string name="workout_add_btn_hint">add to list</string>
+    <string name="workout_edit_reps_hint">Reps</string>
+    <string name="workout_edit_weight_hint">Weight</string>
+    <string name="title_activity_swj_settings">Settings</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="delete_log_entries">Delete log</string>
+    <string name="note_mark">note mark</string>
+    <string name="sets_chosen">Sets chosen:\u0020</string>
+    <string name="exercises_chosen">Ex. chosen:\u0020</string>
+    <string name="db_copied_to">DB copied to </string>
+    <string name="delete_everything_related_to_ex">Delete everything related to this exercise?</string>
+    <string name="empty_not_allowed">Empty fields are not allowed</string>
+    <string name="journal">Journal</string>
+    <string name="restore_backup">Restore backup</string>
+    <string name="create_backup">Create backup</string>
+    <string name="contact_developer">Contact developer</string>
+    <string name="delete_all">Delete all</string>
+    <string name="delete_all_details">Erase all training data on exit from settings</string>
+    <string name="data_management">Data management</string>
+    <string name="backup">Backup</string>
+    <string name="in_path">"In "</string>
+    <string name="from_path">"From "</string>
+    <string name="for_reports">For bug reports or recommendations</string>
+    <string name="send_message">Send message</string>
+    <string name="backup_create_failed_toast">Failed to create backup</string>
+    <string name="backup_restore_failed_toast">Failed to restore backup</string>
+    <string name="press_again_to_add">Press again to confirm since exercise in the past</string>
+    <string name="notes">Notes</string>
+    <string name="edit">Edit</string>
+    <string name="delete_ex">Delete exercise</string>
+    <string name="report_config">Report configuration</string>
+    <string name="one_month">1 month</string>
+    <string name="three_months">3 months</string>
+    <string name="six_months">6 months</string>
+    <string name="one_year">1 year</string>
+    <string name="one_month_period_report">1 month report</string>
+    <string name="three_months_period_report">3 months report</string>
+    <string name="six_months_period_report">6 months report</string>
+    <string name="one_year_period_report">1 year report</string>
+    <string name="two_year_period_report">2 year report</string>
+    <string name="stats_tab">Stats</string>
+    <string name="graph_tab">Graph</string>
+    <string name="reps_tab">Repeats</string>
+    <string name="title_activity_exercise_report">Exercise report</string>
+    <string name="period">Period</string>
+    <string name="show_weights">Show weights</string>
+    <string name="weight_per_date">Weight per date</string>
+    <string name="show_reps">Show reps</string>
+    <string name="reps_per_date">Rep per date</string>
+    <string name="exercise">Exercise</string>
+    <string name="generate">Generate</string>
+    <string name="need_include_reps_or_weights">Report should include reps or/and weights</string>
+    <string name="weights">Weights</string>
+    <string name="reps">Reps</string>
+    <string name="copy">Copy</string>
+    <string name="no_ex_selected">No exercise selected</string>
+    <string name="not_enough_data">Not enough data</string>
+    <string name="press_again_to_confirm">Tap again to confirm</string>
+    <string name="per_one_rep">Per one repetition</string>
+    <string name="max_weight">Max weight</string>
+    <string name="average_weight">Average weight</string>
+    <string name="per_one_set">Per set</string>
+    <string name="per_one_day">Per day</string>
+    <string name="per_period">Per period</string>
+
+    <!-- MuscleSkeleton Strings. -->
+    <string name="Button1">Shoulders</string>
+    <string name="Button2">Back</string>
+    <string name="Button3">Chest</string>
+    <string name="Button4">Abs</string>
+    <string name="Button5">Legs</string>
+    <string name="Button6">Arms</string>
+    <string name="title_activity_skeleton">Muscle Groups</string>
+
+    <!-- Nutrition Strings. -->
+    <string name="title_activity_nutrition">Nutrition</string>
+
+    <!-- Graph Strings. -->
+    <string name="title_activity_graph">Graphs and Statistics</string>
+
+    <!-- Video Strings. -->
+    <string name="title_activity_abList">Ab Exercises</string>
+    <string name="title_activity_armList">Arm Exercises</string>
+    <string name="title_activity_legList">Leg Exercises</string>
+    <string name="title_activity_chestList">Chest Exercises</string>
+    <string name="title_activity_shoulderList">Shoulder Exercises</string>
+    <string name="title_activity_backList">Back Exercises</string>
+
+    <!-- Ab Exercise Strings. -->
+    <string name="ab_button_1">Bicycle Kicks</string>
+    <string name="ab_button_2">Plank w/touch</string>
+    <string name="ab_button_3">V-Hold</string>
+    <string name="ab_button_4">Body Saw</string>
+    <string name="ab_button_5">Mountain Climber</string>
+    <string name="ab_button_6">Renegade Rows</string>
+    <string name="ab_button_7">Ab Curls</string>
+
+    <!-- Arm Exercise Strings. -->
+    <string name="arm_button_1">Hammer Curls</string>
+    <string name="arm_button_2">EZ Bar Curls</string>
+    <string name="arm_button_3">Dumbbell Curls</string>
+    <string name="arm_button_4">Inverted Rows</string>
+    <string name="arm_button_5">Zottman Curls</string>
+    <string name="arm_button_6">Triceps Dips</string>
+    <string name="arm_button_7">Diamond Push-Up</string>
+
+    <!-- Back Exercise Strings. -->
+    <string name="back_button_1">Deadlift</string>
+    <string name="back_button_2">Wide-Grip Pull-Up</string>
+    <string name="back_button_3">Dumbbell Rows</string>
+    <string name="back_button_4">Dolphin Kick</string>
+    <string name="back_button_5">Supermans</string>
+    <string name="back_button_6">Wall Slide</string>
+    <string name="back_button_7">Hip Bridge</string>
+
+    <!-- Chest Exercise Strings. -->
+    <string name="chest_button_1">Barbell Bench Press </string>
+    <string name="chest_button_2">Flat-Bench Press </string>
+    <string name="chest_button_3">Close-Grip Push-Up </string>
+    <string name="chest_button_4">Push-up</string>
+    <string name="chest_button_5">Wide-Grip Dips</string>
+    <string name="chest_button_6">Elevated Push-Up</string>
+
+    <!-- Legs Exercise Strings. -->
+    <string name="leg_button_1">Barbell Squat</string>
+    <string name="leg_button_2">Dumbbell Lunge</string>
+    <string name="leg_button_3">Standing Calf-Raise</string>
+    <string name="leg_button_4">Body-Weight Squat</string>
+    <string name="leg_button_5">Raised Glute Bridge</string>
+    <string name="leg_button_6">Reverse Lunge</string>
+    <string name="leg_button_7">Burpees</string>
+
+    <!-- Shoulder Exercise Strings. -->
+    <string name="shoulder_button_1">Dumbbell Front Raise</string>
+    <string name="shoulder_button_2">Military Press</string>
+    <string name="shoulder_button_3">Dumbbell Lateral Raise</string>
+    <string name="shoulder_button_4">Dumbbell Fly</string>
+    <string name="shoulder_button_5">Elevated Push-Up</string>
+    <string name="shoulder_button_6">Reverse Wall Walk</string>
+    <string name="shoulder_button_7">Plank</string>
+
+</resources>
