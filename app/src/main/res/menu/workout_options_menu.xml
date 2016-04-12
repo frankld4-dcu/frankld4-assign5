@@ -13,14 +13,4 @@
         android:showAsAction="always"
         android:title="@string/notes"
         />
-
-    <!-- Disabled while there are no use for this button -->
-    <!--
-    <item
-        android:id="@+id/action_makedone_icon"
-        android:icon="@drawable/ic_action_custom_circledsave"
-        android:showAsAction="always"
-        android:title="Done"
-        />
-    -->
 </menu>

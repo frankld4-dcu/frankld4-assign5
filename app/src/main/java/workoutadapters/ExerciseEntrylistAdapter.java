@@ -4,14 +4,13 @@ import android.content.Context;
 import android.database.Cursor;
 import android.widget.SimpleCursorAdapter;
 
-import com.example.v_dafran.projectapp.R;
+import club.enhancedliving.enhancedliving.R;
 
 import database.DBClass;
 
 /**
- * Created by v-dafran on 10/03/2016.
+ * Created by v-dafran on 12/03/2016.
  */
-
 public class ExerciseEntrylistAdapter extends SimpleCursorAdapter {
 
     DBClass mDbmediator;

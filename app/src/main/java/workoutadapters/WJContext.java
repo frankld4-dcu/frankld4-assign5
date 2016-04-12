@@ -18,14 +18,14 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.example.v_dafran.projectapp.R;
+import club.enhancedliving.enhancedliving.R;
 
 import java.util.HashSet;
 
 import database.*;
 
 /**
- * Created by v-dafran on 10/03/2016.
+ * Created by v-dafran on 16/03/2016.
  */
 
 public class WJContext implements AbsListView.MultiChoiceModeListener, DialogInterface.OnClickListener {
@@ -528,4 +528,3 @@ public class WJContext implements AbsListView.MultiChoiceModeListener, DialogInt
 
     }
 }
-

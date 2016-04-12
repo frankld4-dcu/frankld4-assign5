@@ -1,16 +1,17 @@
 <resources>
-    <string name="app_name">ProjectApp</string>
+    <string name="app_name">Enhanced Living</string>
     <string name="action_settings">Settings</string>
 
     <!-- MainMenu Strings. -->
-    <string name="button_1">Workout</string>
-    <string name="button_2">Videos</string>
+    <string name="button_1">Workout Journal</string>
+    <string name="button_2">Exercise Videos</string>
     <string name="button_3">Tracker</string>
     <string name="button_4">Graphs</string>
     <string name="button_5">Settings</string>
-    <string name="title_activity_main">ProjectApp</string>
+    <string name="button_6">Our Site</string>
+    <string name="title_activity_main">Enhanced Living</string>
 
-    <!-- Workout Strings. -->
+    <!-- Workout Journal Strings. -->
     <string name="title_activity_workout">Workout</string>
     <string name="main_menu_btn_start">Start workout</string>
     <string name="main_menu_btn_exercises">Exercises</string>
@@ -101,9 +102,6 @@
     <string name="Button6">Arms</string>
     <string name="title_activity_skeleton">Muscle Groups</string>
 
-    <!-- Nutrition Strings. -->
-    <string name="title_activity_nutrition">Nutrition</string>
-
     <!-- Graph Strings. -->
     <string name="title_activity_graph">Graphs and Statistics</string>
 
@@ -167,5 +165,15 @@
     <string name="shoulder_button_5">Elevated Push-Up</string>
     <string name="shoulder_button_6">Reverse Wall Walk</string>
     <string name="shoulder_button_7">Plank</string>
+
+    <!-- Tracker Strings. -->
+    <string name="title_activity_tracker">Tracker</string>
+    <string name="location">Get Location</string>
+    <string name="map">Go to Map</string>
+    <string name="start">Start</string>
+    <string name="path">See Path On Map</string>
+
+    <!-- Site Strings. -->
+    <string name="title_activity_forum">Site</string>
 
 </resources>

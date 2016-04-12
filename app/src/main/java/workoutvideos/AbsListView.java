@@ -7,14 +7,13 @@ import android.app.Activity;
 import android.util.Log;
 import android.view.Menu;
 import android.view.View;
-
-import com.example.v_dafran.projectapp.R;
+import club.enhancedliving.enhancedliving.R;
 
 /**
- * Created by v-dafran on 01/03/2016.
+ * Created by v-dafran on 07/03/2016.
  */
 
-public class AbsListView extends Activity implements View.OnClickListener{
+public class AbsListView extends Activity implements View.OnClickListener {
 
     private static final String APP_NAME = "ProjectApp";
     private static final boolean DEBUG_FLAG = false;

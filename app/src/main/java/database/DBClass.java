@@ -12,7 +12,7 @@ import java.util.Locale;
 import java.util.TimeZone;
 
 /**
- * Created by v-dafran on 10/03/2016.
+ * Created by v-dafran on 24/02/2016.
  */
 
 public class DBClass {
@@ -438,4 +438,3 @@ public class DBClass {
         }
     }
 }
-

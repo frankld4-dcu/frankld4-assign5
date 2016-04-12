@@ -8,14 +8,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-
-import com.example.v_dafran.projectapp.R;
-
+import club.enhancedliving.enhancedliving.R;
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
 
 /**
- * Created by v-dafran on 10/03/2016.
+ * Created by v-dafran on 06/04/2016.
  */
 
 public class ReportStatsTab extends Fragment {
@@ -62,4 +60,3 @@ public class ReportStatsTab extends Fragment {
         return rootView;
     }
 }
-

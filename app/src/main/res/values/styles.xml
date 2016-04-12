@@ -5,7 +5,7 @@
     </style>
     <!-- Main Menu theme. -->
     <style name="MainMenuTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-    <item name="android:windowBackground">@drawable/background_3</item>
+    <item name="android:windowBackground">@drawable/background_1</item>
     <item name="android:textStyle">bold</item>
     </style>
     <!-- Muscle Skeleton theme. -->
@@ -40,4 +40,9 @@
         <item name="android:background">@drawable/textview_workoutedit</item>
     </style>
 
+    <!-- Tracker Style. -->
+    <style name="TrackerTheme1" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowBackground">@drawable/background_1</item>
+        <item name="android:textStyle">bold</item>
+    </style>
 </resources>

@@ -16,13 +16,12 @@ import android.widget.SimpleCursorAdapter;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import com.example.v_dafran.projectapp.R;
+import club.enhancedliving.enhancedliving.R;
 
 import database.DBClass;
 
 /**
- * Created by v-dafran on 10/03/2016.
+ * Created by v-dafran on 03/04/2016.
  */
 
 public class ReportConfigurator extends Activity implements LoaderManager.LoaderCallbacks<Cursor> {

@@ -7,8 +7,7 @@ import android.app.Activity;
 import android.util.Log;
 import android.view.Menu;
 import android.view.View;
-
-import com.example.v_dafran.projectapp.R;
+import club.enhancedliving.enhancedliving.R;
 
 /**
  * Created by v-dafran on 08/03/2016.

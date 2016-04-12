@@ -6,21 +6,17 @@ import android.app.Fragment;
 import android.app.FragmentTransaction;
 import android.database.Cursor;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
-
 import database.DBClass;
 import database.DataPointParcel;
-
-import com.example.v_dafran.projectapp.R;
+import club.enhancedliving.enhancedliving.*;
 import com.jjoe64.graphview.series.DataPoint;
-
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
 /**
- * Created by v-dafran on 10/03/2016.
+ * Created by v-dafran on 01/04/2016.
  */
 
 public class ExerciseReportContainer extends Activity {

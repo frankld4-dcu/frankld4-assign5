@@ -6,14 +6,14 @@ import android.util.Log;
 
 //Graph View Library
 import com.jjoe64.graphview.series.DataPoint;
-
 import java.util.ArrayList;
 
 /**
- * Created by v-dafran on 10/03/2016.
+ * Created by v-dafran on 01/03/2016.
  */
 
-public class DataPointParcel implements Parcelable{
+
+public class DataPointParcel implements Parcelable {
 
     private static final String APP_NAME = "ProjectApp";
     private static final boolean DEBUG_FLAG = false;

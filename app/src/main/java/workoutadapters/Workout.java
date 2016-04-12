@@ -22,7 +22,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.v_dafran.projectapp.R;
+import club.enhancedliving.enhancedliving.R;
 
 import workoutadapters.WorkoutDataAdapter.Subject;
 import database.DBClass;
@@ -31,7 +31,7 @@ import database.SetDataCursorLoader;
 import workoutadapters.*;
 
 /**
- * Created by v-dafran on 08/03/2016.
+ * Created by v-dafran on 17/03/2016.
  */
 
 public class Workout extends Activity implements  OnItemClickListener, OnTouchListener, LoaderManager.LoaderCallbacks<Cursor> {

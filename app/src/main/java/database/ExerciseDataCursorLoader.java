@@ -6,7 +6,7 @@ import android.util.Log;
 import android.content.CursorLoader;
 
 /**
- * Created by v-dafran on 10/03/2016.
+ * Created by v-dafran on 06/03/2016.
  */
 
 public class ExerciseDataCursorLoader extends CursorLoader {

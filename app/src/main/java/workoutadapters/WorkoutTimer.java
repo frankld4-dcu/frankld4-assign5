@@ -6,7 +6,7 @@ import android.view.MenuItem;
 import android.widget.TextView;
 
 /**
- * Created by v-dafran on 10/03/2016.
+ * Created by v-dafran on 06/04/2016.
  */
 
 public class WorkoutTimer {

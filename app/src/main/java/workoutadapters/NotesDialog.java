@@ -7,10 +7,10 @@ import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 
-import com.example.v_dafran.projectapp.R;
+import club.enhancedliving.enhancedliving.R;
 
 /**
- * Created by v-dafran on 10/03/2016.
+ * Created by v-dafran on 12/03/2016.
  */
 
 public class NotesDialog extends Activity {

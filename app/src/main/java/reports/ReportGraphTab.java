@@ -9,21 +9,18 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-
 import database.DataPointParcel;
-
-import com.example.v_dafran.projectapp.R;
+import club.enhancedliving.enhancedliving.R;
 import com.jjoe64.graphview.GraphView;
 import com.jjoe64.graphview.LegendRenderer;
 import com.jjoe64.graphview.helper.DateAsXAxisLabelFormatter;
 import com.jjoe64.graphview.series.DataPoint;
 import com.jjoe64.graphview.series.LineGraphSeries;
-
 import java.text.DateFormat;
 import java.util.ArrayList;
 
 /**
- * Created by v-dafran on 10/03/2016.
+ * Created by v-dafran on 06/04/2016.
  */
 
 public class ReportGraphTab extends Fragment {

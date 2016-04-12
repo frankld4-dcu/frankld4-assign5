@@ -2,11 +2,11 @@ apply plugin: 'android'
 
 android {
     compileSdkVersion 18
-    buildToolsVersion "20.0.0"
+    buildToolsVersion '23.0.3'
 
     defaultConfig {
-        applicationId "com.example.v_dafran.projectapp"
-        minSdkVersion 14
+        applicationId "club.enhancedliving.enhancedliving"
+        minSdkVersion 18
         targetSdkVersion 18
     }
 
@@ -20,8 +20,9 @@ android {
 
 dependencies
         {
-    compile 'com.android.support:support-v4:21.0.3'
-    compile "com.android.support:appcompat-v7:18.0.+"
-    compile 'com.jjoe64:graphview:4.0.1'
-    }
-
+            compile 'com.android.support:support-v4:21.0.3'
+            compile 'com.android.support:appcompat-v7:18.0.+'
+            compile 'com.jjoe64:graphview:4.0.1'
+            compile 'com.google.android.gms:play-services-base:7.3.0'
+            compile 'com.google.android.gms:play-services-location:7.3.0'
+        }
